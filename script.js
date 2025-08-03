@@ -13,8 +13,8 @@ ScrollReveal().reveal(".conta", {
 let text = document.querySelector(".text");
 let btns = document.querySelectorAll(".btn");
 let btnContianer = document.querySelector(".btnContianer");
-let contai = document.querySelector(".contai");
-contai.addEventListener("click",()=>{
+let conta = document.querySelector(".conta");
+conta.addEventListener("click",()=>{
 btnContianer.classList.toggle("hidden")
 });
 btns.forEach((key)=>{
@@ -23,4 +23,5 @@ text.innerHTML = key.innerHTML;
 btnContianer.classList.toggle("hidden");
 });
 })
+
 
